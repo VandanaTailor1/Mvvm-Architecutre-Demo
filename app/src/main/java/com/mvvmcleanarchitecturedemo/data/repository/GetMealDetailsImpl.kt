@@ -9,4 +9,5 @@ class GetMealDetailsImpl(private val apiService: ApiService) : GetMealDetailsRep
     override suspend fun getMealDetails(id: String): MealResponse {
        return apiService.getMealDetails(id)
     }
+
 }

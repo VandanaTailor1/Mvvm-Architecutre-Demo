@@ -4,6 +4,7 @@ import com.mvvmcleanarchitecturedemo.data.model.MealResponse
 import com.mvvmcleanarchitecturedemo.domain.repository.MealSearchRepository
 import com.mvvmcleanarchitecturedemo.utils.ApiResponseCallBack
 import kotlinx.coroutines.flow.Flow
+import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.catch
 import kotlinx.coroutines.flow.flow
 
